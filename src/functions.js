@@ -16,9 +16,16 @@
         3. Parameters -> placeholder variables inside parentheses () that receive input data
         4. Code block -> code enclosed in curly braces {} that runs when executed
 */
+let userName = prompt("Enter your name");
+console.log(userName);
+
+
 
 // CREATE YOUR FUNCTION HERE
-
+function greetUser(){
+    console.log("Oobake user");
+    alert(`Oobake ${userName}`);
+}
 
 
 // TASK 4: CALLING A FUNCTION
@@ -28,7 +35,7 @@
 */
 
 // CALL YOUR FUNCTION HERE
-
+greetUser();
 
 // TASK 5: AGE VERIFICATION SYSTEM FUNCTION
 // This function takes an age parameter and runs dynamic conditional logic inside it.
